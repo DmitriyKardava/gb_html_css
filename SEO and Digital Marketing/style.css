@@ -56,7 +56,7 @@ header {
 }
 
 .main__logo {
-  margin-right: auto;
+  flex: 1;
 }
 
 .main__menu .link {
