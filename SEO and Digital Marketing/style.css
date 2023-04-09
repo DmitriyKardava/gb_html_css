@@ -39,7 +39,7 @@ img {
 }
 
 .container {
-  width: 1016px;
+  width: 1170px;
   margin: 0 auto;
 }
 
@@ -50,6 +50,13 @@ header {
 .main__menu {
   padding-top: 40px;
   padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.main__logo {
+  flex: 1;
 }
 
 .main__menu .link {
@@ -67,6 +74,8 @@ main {
 }
 
 .main__content {
+  display: flex;
+  justify-content: space-between;
 }
 
 .main__content__leftSide {
@@ -113,4 +122,6 @@ footer {
 }
 
 .logos {
+  display: flex;
+  justify-content: space-between;
 }
