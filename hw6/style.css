@@ -18,7 +18,7 @@ img {
 }
 
 .container {
-  width: 1140px;
+  width: 1600px;
   margin: 0 auto;
 }
 
@@ -85,6 +85,7 @@ header nav .right_nav {
   color: #f16d7f;
 }
 .categories {
+  width: 1140px;
   margin-top: 65px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -144,6 +145,10 @@ header nav .right_nav {
   line-height: 29px;
   text-align: center;
   color: #f16d7f;
+}
+
+.products {
+  width: 1140px;
 }
 
 .products_header {
