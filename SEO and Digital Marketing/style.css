@@ -125,3 +125,102 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
+.second_page_top_banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  margin-top: 140px;
+}
+
+.second_page_top_banner .card_shadow {
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.second_page_top_banner .top_card h4 {
+  margin-top: 25px;
+  font-family: "Gilroy-Bold";
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.second_page_top_banner .top_card p {
+  margin-top: 17px;
+  margin-bottom: 25px;
+  font-family: "Gilroy-Regular";
+  font-size: 15px;
+  line-height: 150%;
+  color: #666666;
+}
+
+.second_page_top_banner .top_card a {
+  font-family: "Gilroy-Bold";
+  font-size: 11px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.second_page_main {
+  margin-top: 190px;
+  background: #fafafa;
+}
+
+.second_page_main h2 {
+  font-family: "Gilroy-Bold";
+  font-size: 45px;
+  line-height: 53px;
+  color: #000000;
+  text-align: center;
+}
+.second_page_main p {
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #666666;
+}
+
+.second_page_main .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  margin-top: 55px;
+}
+
+.second_page_main .cards card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second_page_main .cards card h4 {
+  margin-top: 22px;
+  font-family: "Gilroy-Bold";
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.second_page_main .cards card p {
+  margin-top: 22px;
+  font-family: "Gilroy-Regular";
+  font-size: 15px;
+  line-height: 150%;
+  color: #aaaaaa;
+}
+.second_page_main .cards card button {
+  margin-top: 39px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  font-family: "Gilroy-Bold";
+  font-size: 13px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 36px 15px 46px;
+  border: none;
+}
