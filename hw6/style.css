@@ -287,6 +287,7 @@ footer {
   .products {
     padding-left: 16px;
     padding-right: 16px;
+    background: #f8f8f8;
   }
   .products_items {
     display: grid;
