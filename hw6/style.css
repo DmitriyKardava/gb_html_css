@@ -85,8 +85,9 @@ header nav .right_nav {
   color: #f16d7f;
 }
 .categories {
-  width: 1140px;
   margin-top: 65px;
+  padding-left: 230px;
+  padding-right: 230px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -148,7 +149,8 @@ header nav .right_nav {
 }
 
 .products {
-  width: 1140px;
+  padding-left: 230px;
+  padding-right: 230px;
 }
 
 .products_header {
@@ -228,4 +230,89 @@ footer {
   font-size: 16px;
   line-height: 19px;
   color: #f26376;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+  header nav .left_nav {
+    margin-left: 32px;
+  }
+  header nav .right_nav {
+    margin-right: 32px;
+  }
+  .banner_content h1 {
+    font-size: 44px;
+    line-height: 53px;
+  }
+  .banner_content h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .categories {
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 20px;
+  }
+
+  .categories .cat1,
+  .categories .cat2,
+  .categories .cat3 {
+    height: 168px;
+    width: auto;
+  }
+
+  .categories .cat4 {
+    height: 116px;
+    width: auto;
+  }
+
+  .categories h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .categories h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .products {
+    padding-left: 16px;
+    padding-right: 16px;
+    background: #f8f8f8;
+  }
+  .products_items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 48px;
+  }
+
+  .product h4 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 25px;
+  }
+
+  .product p {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5d5d5d;
+    margin-top: 16px;
+  }
 }
