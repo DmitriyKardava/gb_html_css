@@ -27,7 +27,6 @@ img {
   margin: 0 auto;
 }
 
-
 header {
   position: relative;
 }
@@ -65,7 +64,7 @@ nav .cart {
 }
 
 .dropdown {
-  font-family: 'Lato';
+  font-family: "Lato";
   position: absolute;
   background-color: #ffffff;
   /* right: 0; */
@@ -82,30 +81,31 @@ nav .cart {
   line-height: 17px;
   color: #000000;
 }
-
-.dropdown ul {
-  margin-top: 20px;
-  margin-left: 32px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  color: #F16D7F;
-}
-
 .dropdown li {
-  margin-left: 20px;
+  margin-left: 32px;
   list-style-type: none;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #6F6E6E;
+}
+
+.menu_header {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f16d7f;
+}
+
+.dropdown li .menu_item {
+  color: #6f6e6e;
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
-.dropdown li:hover {
+.dropdown li .menu_item:hover {
   text-decoration: underline;
   text-decoration-color: dodgerblue;
 }
@@ -516,12 +516,12 @@ footer {
 
 .copyright {
   padding-left: 235px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: #FBFBFB;
+  color: #fbfbfb;
 }
 
 .social {
